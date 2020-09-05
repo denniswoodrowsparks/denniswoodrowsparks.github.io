@@ -90,7 +90,13 @@ th {
 
 body {background-color: #EBECF0;}
 
+.img {
+    padding-right: 20px;
+}
 
+.mytext {
+    padding-left: 50px;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
