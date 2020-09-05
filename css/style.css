@@ -167,7 +167,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #f2f3f5;
   height: 56px;
   width: 20%;
-  overflow: hidden;
   transition: 0.3s;
 }
 
@@ -182,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
   .nav-menu a {
-    width: 50px;
+    width: 25px;
   }
   .nav-menu a span {
     display: none;
