@@ -26,6 +26,26 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+#main { 
+    width: 800px;
+    margin: 0 auto;
+}
+#one    {
+    width: 200px;
+    height: 400px;
+    background: red;
+    float: left;
+}
+
+#two  {
+    width: 600px;
+    background: #ffffff;
+    height: 400px;
+    margin-left: 200px;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
