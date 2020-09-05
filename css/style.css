@@ -33,6 +33,10 @@ h2 {
     margin-bottom:10px;
 }
 
+h2:hover {
+    color: #0563bb;
+}
+
 h1 {
     font-family: "Perpetua Titling MT", serif;
     margin-bottom:25px;
