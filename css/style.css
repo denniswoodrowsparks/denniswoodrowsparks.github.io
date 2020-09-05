@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   background: #f2f3f5;
   height: 56px;
-  width: 100%;
+  width: 20%;
   overflow: hidden;
   transition: 0.3s;
 }
