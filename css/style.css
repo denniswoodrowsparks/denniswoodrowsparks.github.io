@@ -23,18 +23,18 @@ a:hover {
 }
 
 h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Perpetua Titling MT", serif;
     margin-bottom:10px;
 }
 
 h2 {
     margin-top:50px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Perpetua Titling MT", serif;
     margin-bottom:10px;
 }
 
 h1 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Perpetua Titling MT", serif;
     margin-bottom:25px;
 }
 
@@ -66,6 +66,25 @@ th {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
 }
+
+.highlight
+{ border: 10px solid orange; }
+
+#myVideo {
+  position: fixed;
+  right: 5;
+  top: 5;
+  z-index: -1;
+}
+
+
+.content {
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+}
+
+body {background-color: #EBECF0;}
 
 
 
