@@ -147,12 +147,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Navigation */
 .nav-menu * {
   margin: 0;
-  padding: 10;
+  padding: 0;
   list-style: none;
 }
 
 .nav-menu > ul > li {
-  position: relative;
   white-space: nowrap;
 }
 
