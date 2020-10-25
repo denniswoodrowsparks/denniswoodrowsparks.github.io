@@ -97,6 +97,11 @@ body {background-color: #EBECF0;}
 
 .mytext {
     padding-left: 50px;
+    padding-right: 30px;
+}
+
+.right-pad {
+    padding-right: 100px;
 }
 
 /*--------------------------------------------------------------
