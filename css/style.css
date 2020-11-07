@@ -105,20 +105,23 @@ body {background-color: #EBECF0;}
 }
 
 .progress-container {
-  width: 100%;
+  width: 105%;
   height: 8px;
+    left: 100px;
   background: #ccc;
 }
 
 .progress-bar {
   height: 8px;
   background: #0563bb;
-  width: 0%;
+  width: 100%;
+    left: 100px;
 }
 
 .header {
   position: fixed;
   top: 0;
+    left: -50px;
   z-index: 1;
   width: 100%;
   background-color: #f1f1f1;
