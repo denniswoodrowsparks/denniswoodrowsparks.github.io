@@ -1,8 +1,10 @@
-function() {
-    var t = parseInt($(this).index()) + 1;
-    $('td:nth-child(' + t + ')').removeClass('highlighted ');
-        if(t>1){
-         var t1 = t -1;
-         $('td:nth-child(' + t1 + ')').removeClass('highlightedPrev');
-    }
-});
+
+// When the user scrolls the page, execute myFunction 
+
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}

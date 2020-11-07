@@ -30,7 +30,11 @@
             </center>
         </div>
             
-        
+        <div class="header">
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>  
+        </div> 
         
         <h2 id="AboutMe">About Dennis</h2>
         
@@ -61,6 +65,13 @@
         <p class="right-pad">
             Dennis leveraged his Mirth Connect, JavaScript, SQL, and Database Development skills to produce quality interfaces for clients in his role as an Integration Engineer. Furthermore, Dennis has developed interfaces with different data requirements including HL7 and flat file.
         </p>
+            
+        <h4>EMR FHIR Integration</h4>
+            <ul>
+                <li>Used Java Development and Eclipse experience to write jar files for secure FHIR integration in Mirth</li>
+                <li>Provided testing support in the development process</li>
+                <li>Contributed in a joint effort between Product Management and Interface Developers</li>
+            </ul>
             
         <h4>Infection Control Interface</h4>
             <ul>
@@ -112,6 +123,11 @@
         <p class="right-pad">
             The Site Monitor would repeatedly get response codes from a list of important sites and then determine if the site is up and running as expected. If the monitor determined that the status of the site changed, the monitor would send out an email with a description of the status change to a group email address. Dennis designed and developed from the ground up using Eclipse, Java, and PostgreSQL after holding several meeting with key stakeholders.
         </p>
+            
+        <h3>SISComplete Deployment Dashboard</h3>
+            <p class="right-pad">
+                The SISComplete Deployment Dashboard displayed key metrics that Managers and DevOps Engineers used to evaluate deployments over time. Dennis used Power BI to present key data around, deployment duration, version, clients, etc.
+            </p>
         
         <h2 id="Resume">Resume</h2>
         
@@ -303,6 +319,18 @@ client in directing resources and efforts to achieve project goal</li>
         Your browser does not support HTML5 video.
         </video>
 -->
+        
+        <script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
         
     </body>
 </html>
